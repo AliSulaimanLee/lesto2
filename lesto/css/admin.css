@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    /*border: 1px solid black; */
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #45aaf2;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2d98da;
+}
+
+.btn-secondary {
+    background-color: #2bcbba;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #0fb9b1;
+}
+
+.btn-danger {
+    background-color: #fc5c65;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #eb3b5a;
+}
+
+.success {
+    color: #20bf6b;
+}
+
+.error {
+    color: #fc5c65;
+}
+
+.grey {
+    color: #a5b1c2;
+}
+
+
+/*css for menu */
+
+.menu {
+    border-bottom: 1px solid;
+    background-color: #2bcbba;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #d1d8e0;
+}
+
+
+/*css for main content*/
+
+.main-content {
+    background-color: rgb(236, 230, 230);
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/*css for footer*/
+
+.footer {
+    background-color: #2bcbba;
+    color: rgb(46, 19, 19);
+}
+
+
+/* css for login*/
+
+.login {
+    width: 30%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: #0fb9b1;
+    color: white;
+    /*unresponsive*/
+}
